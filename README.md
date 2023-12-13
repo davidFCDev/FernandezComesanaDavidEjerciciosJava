@@ -8,7 +8,7 @@ Repositorio para los ejercicios del bootcamp de Java en Hack a Boss.
 
  1. Primera semana
     - Clase 1 - [Ver carpeta](https://github.com/davidFCDev/FernandezComesanaDavidEjerciciosJava/tree/main/JavaBasico/Semana1/Clase1)
-    - Clase 2
+    - Clase 2 - [Ver carpeta](https://github.com/davidFCDev/FernandezComesanaDavidEjerciciosJava/tree/main/JavaBasico/Semana1/Clase2)
     - Clase 3
       
  2. Segunda semana
