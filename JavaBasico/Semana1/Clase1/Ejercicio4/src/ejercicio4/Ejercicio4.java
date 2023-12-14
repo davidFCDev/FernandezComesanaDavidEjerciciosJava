@@ -26,5 +26,8 @@ public class Ejercicio4 {
         System.out.println("El resultado de la multiplicación entre " + number1 + " y " + number2 + " es igual a: " + multiplicacion);
         System.out.println("El resultado de la división entre " + number1 + " y " + number2 + " es igual a: " + division);
     }
+    
+    // Si intentamos dividir entre 0 nos tirará un error 'ArithmeticException', porque no está definida en matemáticas
+    // Podemos controlarlo con un try & catch o con un if previo
 }
 
