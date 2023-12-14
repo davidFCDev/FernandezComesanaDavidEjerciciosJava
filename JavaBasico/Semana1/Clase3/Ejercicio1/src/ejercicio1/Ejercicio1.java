@@ -1,5 +1,7 @@
 package ejercicio1;
 
+import ejercicio1.models.Electrodomestico;
+
 public class Ejercicio1 {
 
     public static void main(String[] args) {

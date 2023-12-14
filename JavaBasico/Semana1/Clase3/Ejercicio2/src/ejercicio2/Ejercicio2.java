@@ -1,6 +1,8 @@
 
 package ejercicio2;
 
+import ejercicio2.models.Persona;
+
 public class Ejercicio2 {
 
     public static void main(String[] args) {

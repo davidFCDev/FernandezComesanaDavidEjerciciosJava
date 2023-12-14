@@ -1,5 +1,5 @@
 
-package ejercicio2;
+package ejercicio2.models;
 
 public class Persona {
     private int id;
