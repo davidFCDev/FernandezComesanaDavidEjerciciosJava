@@ -64,7 +64,7 @@ public class Animal {
         return "Animal{" + "id=" + id + ", name=" + name + ", age=" + age + ", skin=" + skin + ", feeding=" + feeding + '}';
     }
     
-    public void salute(){
-        System.out.println("Hello, I'm an animal!");
+    public String salute(){
+        return "Hello, I'm an animal!";
     }
 }

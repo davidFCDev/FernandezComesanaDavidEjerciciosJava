@@ -51,7 +51,7 @@ public class Bird extends Animal {
     }
 
     @Override
-    public void salute() {
-        System.out.println("Hello, I'm a bird!");
+    public String salute() {
+        return "Hello, I'm a bird!";
     }
 }

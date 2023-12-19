@@ -52,7 +52,7 @@ public class Mammal extends Animal {
     }
     
     @Override
-    public void salute() {
-        System.out.println("Hello, I'm a mammal!");
+    public String salute() {
+        return "Hello, I'm a mammal!";
     }
 }
