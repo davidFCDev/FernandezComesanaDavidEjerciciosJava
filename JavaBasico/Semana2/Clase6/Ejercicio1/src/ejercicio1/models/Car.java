@@ -1,6 +1,8 @@
 
 package ejercicio1.models;
 
+import java.time.Year;
+
 public class Car extends Vehicle implements Electric {
     private double battery;
     private int autonomy;
@@ -28,6 +30,12 @@ public class Car extends Vehicle implements Electric {
 
     public void setAutonomy(int autonomy) {
         this.autonomy = autonomy;
+    }
+    
+    @Override
+    public int getOld(){
+        int actualYear = Year.now().getValue();
+        return actualYear - getYear();
     }
     
     @Override

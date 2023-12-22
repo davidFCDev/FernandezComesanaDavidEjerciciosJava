@@ -1,7 +1,9 @@
-
 package ejercicio1.models;
 
+import java.time.Year;
+
 public class Truck extends Vehicle implements Combustion {
+
     private int tankCapacity;
     private double combustibleCost;
 
@@ -29,7 +31,13 @@ public class Truck extends Vehicle implements Combustion {
     public void setCombustibleCost(double combustibleCost) {
         this.combustibleCost = combustibleCost;
     }
-    
+
+    @Override
+    public int getOld() {
+        int actualYear = Year.now().getValue();
+        return actualYear - getYear();
+    }
+
     @Override
     public void refuel() {
         System.out.println("Refueling is in progress");

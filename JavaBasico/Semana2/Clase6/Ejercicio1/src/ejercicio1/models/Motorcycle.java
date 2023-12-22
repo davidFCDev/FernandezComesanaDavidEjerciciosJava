@@ -1,5 +1,7 @@
 package ejercicio1.models;
 
+import java.time.Year;
+
 public class Motorcycle extends Vehicle implements Combustion {
 
     private int displacement;
@@ -30,6 +32,12 @@ public class Motorcycle extends Vehicle implements Combustion {
         this.engineType = engineType;
     }
 
+    @Override
+    public int getOld(){
+        int actualYear = Year.now().getValue();
+        return actualYear - getYear();
+    }
+    
     @Override
     public void refuel() {
         System.out.println("Refueling is in progress");

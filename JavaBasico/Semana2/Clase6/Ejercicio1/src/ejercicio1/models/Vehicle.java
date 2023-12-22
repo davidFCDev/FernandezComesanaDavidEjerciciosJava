@@ -71,8 +71,5 @@ public abstract class Vehicle {
         this.cost = cost;
     }
 
-    public int getOld() {
-        int actualYear = Year.now().getValue();
-        return actualYear - this.year;
-    }
+    public abstract int getOld();
 }
